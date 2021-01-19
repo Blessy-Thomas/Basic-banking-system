@@ -1,0 +1,81 @@
+body{ 
+    background: url('5.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  .nav-items .navbar-nav .active .nav-links {
+    color: #ff0000;
+  }
+  .panel{
+      margin-bottom: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+  }
+  .panel-body {
+      padding: 15px;
+  }
+  button{
+    border-radius: 30px;
+  }
+  thead{
+      border-radius: 10px;
+      background-color: darkslateblue;
+      color: white;
+  }
+  .tb{
+    background-color: rgb(255, 255, 255);
+  }
+  .close{
+     color:white;
+     font-size: 30px;
+  }
+  .modal-header{
+    background-color: darkblue;
+    color: #FFF;
+  }
+  .modal-body{
+      background-color: rgb(127, 204, 218);
+  }
+  .name{
+      text-decoration: none;
+      color: darkred;
+      text-transform: uppercase;
+  }
+  .footer{
+      margin: 0px auto;
+    padding: 0px 0px;
+    position: fixed;
+     left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (min-width: 992px)
+  {
+    /*body{
+    background-image: url('big5.jpg');
+    }*/
+    .click{
+      padding-top: 350px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+   /* body{
+    background-image: url('med5.jpg');
+    }*/
+    .click{
+      padding-top: 350px;
+    }
+  }
+  @media (max-width: 767px){
+    /*body{
+    background-image: url('small5.jpg');
+    }*/
+    .click{
+      padding-top: 300px;
+    }
+  }
